@@ -1,6 +1,6 @@
-let number= 2;
+let number = 3
 
-for(let i=2;i<6; i++){
+for(let i=0;i<6; i++) {
     number=number+2;
 }
-document.body.innerhtml=number;
+document.body.innterHTML=number;
