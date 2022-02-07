@@ -1,16 +1,6 @@
-let number= 0;
+let number= 2;
 
-//for(let i=0;i<6; i++){
-    //number=number+2;
-//}
-
-//while(start<4){
-    //number=number+2;
-    //start++;
-//}
-
-while(answer!=="*"){
-    answer=prompt("what symbol do you want?")
+for(let i=2;i<6; i++){
+    number=number+2;
 }
-
 document.body.innerhtml=number;
