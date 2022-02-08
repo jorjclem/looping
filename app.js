@@ -1,6 +1,11 @@
-let number = 3
+let damageValue= Number (prompt("Please input your damage value: "))
 
-for(let i=0;i<6; i++) {
-    number=number+2;
+if (damageValue== i<5){
+    damageValue=1
 }
-document.body.innterHTML=number;
+
+document.innerHTML=Math.floor(Math.random() * 2) + 1;
+
+
+
+
